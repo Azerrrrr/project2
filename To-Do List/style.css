@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap'); 
+ 
+body{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+} 
+ 
+.container { 
+    margin-left: 36%; 
+    margin-top: 16%; 
+    width: 28%; 
+    border: 1px solid gray; 
+    border-radius: 10px; 
+} 
+ 
+.yellow { 
+    height: 5%; 
+    background-color: #FFDC40; 
+    border-radius: 10px 10px 0px 0px; 
+} 
+ 
+.text1 { 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 26px; 
+    line-height: 31px; 
+    text-align: center; 
+    margin-top: 4%; 
+    margin-right: 17%; 
+} 
+ 
+.imgblck, .inptblck { 
+    display: block; 
+    margin-bottom: 6%; 
+} 
+ 
+.inptblck { 
+    width: 82%; 
+    height: 5%; 
+    border-radius: 10px; 
+    padding: 3%; 
+    font-size: 19px;
+} 
+ 
+.commondiv { 
+    margin-left: 16%; 
+} 
+ 
+.imgblck { 
+    margin-left: 72%; 
+} 
+ 
+#button{  
+    font-family: 'Roboto';  
+    font-size: 14px;  
+    font-family: 'Roboto', sans-serif;   
+    line-height: 16px;  
+    display: flex;  
+    align-items: center;  
+    background-color: #833AE0;  
+    width: 180px;  
+    height: 40px;  
+    justify-content: center; 
+    border-radius: 20px;  
+    color: white; 
+    border: none;
+}  
+ 
+.add{  
+    font-family: 'Roboto';  
+    font-style: normal;  
+    font-size: 20px;  
+    line-height: 16px; 
+    position: absolute; 
+    left: 44.5%;  
+    display: flex;  
+    align-items: center;  
+    background-color:  #9953F1;  
+    width: 40px;  
+    height: 40px;  
+    border-radius: 20px;  
+    justify-content: center; 
+} 
+ 
+.addtext { 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.button { 
+    display: flex; 
+    justify-content: center; 
+    margin-right: 16%; 
+    padding-bottom: 10%; 
+} 
+ 
+.newul { 
+    text-decoration: none; 
+    padding-right: 5%; 
+    justify-content: space-between; 
+    margin-bottom: 4%; 
+    display: none; 
+    border: 2px solid gray; 
+    width: 75%; 
+    height: fit-content; 
+    border-radius: 10px; 
+    padding: 3% ;
+    word-break: break-word;
+    font-size: 19px;
+} 
+ 
+.ilkli { 
+    list-style-type: none; 
+    padding-bottom: 3%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.knopka{
+    background-image: url(./Group\ 56.svg);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+} 
+
+ .knopka:hover {
+    background-color: #833AE0;
+}
+
+#ilkul{
+    margin-left: -35;
+}

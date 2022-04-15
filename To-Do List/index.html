@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="OIP.jpg">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="yellow"></div>
+        <div class="commondiv">
+            <p class="text1">To-Do List</p>
+            <img onclick="sorting()" src="Group 38.svg" class="imgblck">
+            <input type="text" class="inptblck" id="MyInput" required placeholder="Input daxil edin!">
+            <div class="ull">
+                <div class="newUl" id="one">
+                    <ul id="ilkul"></ul>
+                </div>
+                <div class="button">
+                    <button id="button" onclick="addfunction()">
+                        <span class="add">+</span>
+                        ADD Item
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</html>
